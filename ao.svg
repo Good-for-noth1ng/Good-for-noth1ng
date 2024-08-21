@@ -27,7 +27,7 @@
             offset-distance: 100%;
           }
         } -->
-        #sun {
+<!--         #sun {
             width: 35px;
             height: 35px;
             border-radius: 50px;
@@ -38,7 +38,7 @@
             transform: rotateX(0deg) rotateY(0deg) rotateZ(-100deg);
             filter: blur(2px);
             animation: spin 300s infinite linear;
-        }
+        } -->
         <!-- .col {
           display: flex;
           flex-direction: column;
