@@ -1,0 +1,3373 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          display: flex;
+          width: 100%;
+          height: 300px;
+          background: radial-gradient(circle at bottom, navy 0, black 100%);
+          <!-- background-color: #0e0220; -->
+          justify-content: center;
+          align-items: center;
+        }
+        @keyframes spin {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(-360deg);
+          }
+        }
+        <!-- @keyframes spin {
+          from {
+            offset-distance: 0%;
+          }
+          to {
+            offset-distance: 100%;
+          }
+        } -->
+        #sun {
+            width: 35px;
+            height: 35px;
+            border-radius: 50px;
+            position: absolute;
+            z-index: 3;
+            top: 48%;
+            background: linear-gradient(to top, rgba(209, 201, 252,1), rgba(255, 255, 255, 1));
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(-100deg);
+            filter: blur(2px);
+            animation: spin 300s infinite linear;
+        }
+        <!-- .col {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap:1px;
+          position: relative;
+          z-index: 2;
+        } -->
+        .d1 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          <!-- offset-path: path("M 0, -10 a 25,25 0 1,0 1,0");
+          animation: spin 30s infinite linear forwards; -->
+          position: absolute;
+          left: 46%;
+          top: 52%;
+        }
+        .d2 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 52%;
+        }
+        .d3 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 52%;
+        }
+        .d4 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 52%;
+        }
+        .d5 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 51%;
+        }
+        .d6 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 51%;
+        }
+        .d7 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 51%;
+        }
+        .d8 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 50%;
+        }
+        .d9 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 50%;
+        }
+        .d10 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 53%;
+        }
+        .d11 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 53%;
+        }
+        .d12 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 47%;
+          top: 53%;
+        }
+        .d13 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 49%;
+        }
+        .d14 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 49%;
+        }
+        .d15 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 48%;
+        }
+        .d16 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 48%;
+        }
+        .d17 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 47%;
+        }
+        .d18 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 46%;
+        }
+        .d19 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 46%;
+        }
+        .d20 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 47%;
+        }
+        .d21 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 45%;
+        }
+        .d22 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44.5%;
+          top: 45%;
+        }
+        .d23 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 43.5%;
+          top: 44%;
+        }
+        .d24 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 47%;
+          top: 50%;
+        }
+        .d25 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 47%;
+          top: 51%;
+        }
+        .d26 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 47%;
+          top: 52%;
+        }
+        .d27 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 47%;
+          top: 53%;
+        }
+        .d28 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 44%;
+        }
+        .d29 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44%;
+          top: 42%;
+        }
+        .d30 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 43%;
+        }
+        .d31 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 42%;
+        }
+        .d32 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 42%;
+        }
+        .d33 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44.5%;
+          top: 42%;
+        }
+        .d34 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44.5%;
+          top: 41%;
+        }
+        .d35 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 40%;
+        }
+        .d36 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 39%;
+        }
+        .d37 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 38%;
+        }
+        .d38 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 37%;
+        }
+        .d39 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 44%;
+        }
+        .d40 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 46%;
+        }
+        .d41 {
+          width: 7px;
+          height: 7px;
+          background-color: white;
+          border-radius: 7px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 44%;
+        }
+        .d42 {
+          width: 7px;
+          height: 7px;
+          background-color: white;
+          border-radius: 7px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 44%;
+        }
+        .d43 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 41%;
+        }
+        .d44 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 40%;
+        }
+        .d45 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 39%;
+        }
+        .d46 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 41%;
+        }
+        .d47 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 40%;
+        }
+        .d48 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 39%;
+        }
+        .d49 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 39%;
+        }
+        .d50 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 47%;
+          top: 38%;
+        }
+        .d51 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 37%;
+        }
+        .d52 {
+          width: 2.5px;
+          height: 2.5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(0.5px);
+          position: absolute;
+          left: 47%;
+          top: 36.5%;
+        }
+        .d53 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 47.5%;
+          top: 37%;
+        }
+        .d54 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 48.5%;
+          top: 37%;
+        }
+        .d55 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 48%;
+          top: 36%;
+        }
+        .d56 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 48.5%;
+          top: 35.5%;
+        }
+        .d57 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 49%;
+          top: 35%;
+        }
+        .d58 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 53.5%;
+        }
+        .d59 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 46%;
+        }
+        .d60 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 45%;
+        }
+        .d61 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 45%;
+        }
+        .d62 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52.5%;
+          top: 45%;
+        }
+        .d63 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 45%;
+        }
+        .d64 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53.5%;
+          top: 45%;
+        }
+        .d65 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 45%;
+        }
+        .d66 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 51.5%;
+          top: 45%;
+        }
+        .d67 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 45.5%;
+        }
+        .d68 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 46%;
+        }
+        .d69 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 47%;
+        }
+        .d70 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 48%;
+        }
+        .d71 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 46%;
+        }
+        .d72 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52.5%;
+          top: 47%;
+        }
+        .d73 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 48%;
+        }
+        .d74 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 49%;
+        }
+        .d75 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 50%;
+        }
+        .d76 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 51%;
+        }
+        .d77 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 50%;
+        }
+        .d78 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 55%;
+          top: 49%;
+        }
+        .d79 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 55%;
+        }
+        .d80 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 55%;
+        }
+        .d81 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 56%;
+        }
+        .d82 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 57%;
+        }
+        .d83 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 59%;
+        }
+        .d84 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 60%;
+        }
+        .d85 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 51%;
+          top: 61%;
+        }
+        .d86 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 50%;
+          top: 62%;
+        }
+        .d87 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 51%;
+          top: 62%;
+        }
+        .d88 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 49%;
+          top: 63%;
+        }
+        .d89 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 48%;
+          top: 64%;
+        }
+        .d90 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 53%;
+        }
+        .d91 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 53%;
+        }
+        .d100 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53.6%;
+          top: 57%;
+        }
+        .d101 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 53%;
+        }
+        .d102 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 52%;
+        }
+        .d103 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 51%;
+        }
+        .d104 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 50%;
+        }
+        .d105 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53.5%;
+          top: 51%;
+        }
+        .d106 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 51%;
+        }
+        .d107 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52.5%;
+          top: 53%;
+        }
+        .d108 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53.5%;
+          top: 53%;
+        }
+        .d109 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 54%;
+        }
+        .d110 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53.5%;
+          top: 55%;
+        }
+        .d111 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 56%;
+        }
+        .d112 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54.5%;
+          top: 50%;
+        }
+        .d113 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 52%;
+        }
+        .d114 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 47%;
+          top: 64%;
+        }
+        .d115 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 48%;
+          top: 62%;
+        }
+        .d116 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 47%;
+          top: 61%;
+        }
+        .d117 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 60%;
+        }
+        .d119 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 49%;
+          top: 61%;
+        }
+        .d120 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 50%;
+          top: 60%;
+        }
+        .d121 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 48%;
+          top: 60%;
+        }
+        .d122 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 47%;
+          top: 59%;
+        }
+        .d123 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.2%;
+          top: 58%;
+        }
+        .d124 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46.5%;
+          top: 62%;
+        }
+        .d125 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 63.5%;
+        }
+        .d126 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 46%;
+          top: 65%;
+        }
+        .d127 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52.5%;
+          top: 58%;
+        }
+        .d128 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 57%;
+        }
+        .d129 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52.5%;
+          top: 56%;
+        }
+        .d130 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 51.5%;
+          top: 59.5%;
+        }
+        .d131 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 50.5%;
+          top: 59%;
+        }
+        .d132 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.5%;
+          top: 57%;
+        }
+        .d133 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45.2%;
+          top: 58%;
+        }
+        .d134 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 60%;
+        }
+        .d135 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44%;
+          top: 59%;
+        }
+        .d136 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 62%;
+        }
+        .d137 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 45%;
+          top: 64%;
+        }
+        .d138 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44.5%;
+          top: 65%;
+        }
+        .d139 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44%;
+          top: 66%;
+        }
+        .d140 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 43%;
+          top: 66%;
+        }
+        .d141 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44%;
+          top: 63%;
+        }
+        .d142 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 49.5%;
+          top: 36%;
+        }
+        .d143 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 50%;
+          top: 36%;
+        }
+        .d144 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 51%;
+          top: 36%;
+        }
+        .d145 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 37%;
+        }
+        .d146 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 38%;
+        }
+        .d147 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 39%;
+        }
+        .d148 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 50%;
+          top: 34%;
+        }
+        .d149 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 50.5%;
+          top: 34%;
+        }
+        .d150 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 51.5%;
+          top: 34%;
+        }
+        .d151 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52.5%;
+          top: 34%;
+        }
+        .d152 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53.5%;
+          top: 34%;
+        }
+        .d153 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 51%;
+          top: 33%;
+        }
+        .d154 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 33%;
+        }
+        .d155 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 52%;
+          top: 39%;
+        }
+        .d156 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 40%;
+        }
+        .d157 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 41%;
+        }
+        .d158 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 55%;
+          top: 42%;
+        }
+        .d159 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 56%;
+          top: 43%;
+        }
+        .d160 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 36%;
+        }
+        .d161 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 36%;
+        }
+        .d162 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54%;
+          top: 33%;
+        }
+        .d163 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 55%;
+          top: 32%;
+        }
+        .d164 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 32%;
+        }
+        .d165 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 54.5%;
+          top: 38%;
+        }
+        .d166 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 55%;
+          top: 39%;
+        }
+        .d167 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 56%;
+          top: 40%;
+        }
+        .d168 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 55%;
+          top: 36%;
+        }
+        .d169 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 55%;
+          top: 34%;
+        }
+        .d170 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 56%;
+          top: 34%;
+        }
+        .d171 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 57%;
+          top: 44%;
+        }
+        .d172 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 56%;
+          top: 38%;
+        }
+        .d173 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 57%;
+          top: 35%;
+        }
+        .d174 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 36%;
+        }
+        .d175 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 57%;
+          top: 37%;
+        }
+        .d176 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 38%;
+        }
+        .d177 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 57%;
+          top: 33%;
+        }
+        .d178 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 31%;
+        }
+        .d179 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 59%;
+          top: 30%;
+        }
+        .d180 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 60%;
+          top: 37%;
+        }
+        .d181 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 61%;
+          top: 38%;
+        }
+        .d182 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 56%;
+          top: 31%;
+        }
+        .d183 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 57%;
+          top: 30%;
+        }
+        .d184 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 34%;
+        }
+        .d185 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 59%;
+          top: 34%;
+        }
+        .d186 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 57%;
+          top: 39%;
+        }
+        .d187 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 40%;
+        }
+        .d188 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 60%;
+          top: 34%;
+        }
+        .d189 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 59%;
+          top: 40%;
+        }
+        .d190 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 60%;
+          top: 41%;
+        }
+        .d191 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 59%;
+          top: 43%;
+        }
+        .d192 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 44%;
+        }
+        .d193 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 59%;
+          top: 45%;
+        }
+        .d194 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 61%;
+          top: 46%;
+        }
+        .d195 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 62%;
+          top: 33%;
+        }
+        .d196 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 63%;
+          top: 40%;
+        }
+        .d197 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 59%;
+          top: 49%;
+        }
+        .d198 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 54%;
+        }
+        .d199 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 44.5%;
+          top: 57%;
+        }
+        .d200 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 43.5%;
+          top: 56.5%;
+        }
+        .d201 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 43%;
+          top: 55.5%;
+        }
+        .d202 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 42.5%;
+          top: 54%;
+        }
+        .d203 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 42%;
+          top: 52%;
+        }
+        .d204 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 41.5%;
+          top: 50%;
+        }
+        .d205 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 43%;
+          top: 60%;
+        }
+        .d206 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 42%;
+          top: 60%;
+        }
+        .d207 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 43%;
+          top: 62%;
+        }
+        .d208 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 42%;
+          top: 63%;
+        }
+        .d209 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 41%;
+          top: 63%;
+        }
+        .d210 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 40%;
+          top: 62%;
+        }
+        .d211 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 43%;
+          top: 58%;
+        }
+        .d212 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 42%;
+          top: 58%;
+        }
+        .d213 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 42%;
+          top: 56%;
+        }
+        .d214 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 41.5%;
+          top: 54%;
+        }
+        .d215 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 40%;
+          top: 53%;
+        }
+        .d216 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 41%;
+          top: 56%;
+        }
+        .d217 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 40%;
+          top: 57%;
+        }
+        .d218 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 41%;
+          top: 58%;
+        }
+        .d219 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 40.5%;
+          top: 51%;
+        }
+        .d220 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 40%;
+          top: 49%;
+        }
+        .d221 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 38%;
+          top: 51%;
+        }
+        .d222 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 39%;
+          top: 47%;
+        }
+        .d223 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 39%;
+          top: 55%;
+        }
+        .d224 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 37%;
+          top: 46%;
+        }
+        .d225 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 38.5%;
+          top: 43%;
+        }
+        .d226 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 37%;
+          top: 42%;
+        }
+        .d227 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 38%;
+          top: 40%;
+        }
+        .d228 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 37%;
+          top: 40%;
+        }
+        .d229 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 37.5%;
+          top: 44%;
+        }
+        .d230 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 45%;
+        }
+        .d231 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 47%;
+        }
+        .d232 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 48%;
+        }
+        .d233 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 49%;
+        }
+        .d234 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 39%;
+          top: 48%;
+        }
+        .d235 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 48%;
+        }
+        .d236 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 39%;
+          top: 49%;
+        }
+        .d237 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 39%;
+          top: 50%;
+        }
+        .d238 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 39%;
+          top: 51%;
+        }
+        .d239 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 52%;
+        }
+        .d240 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 53%;
+        }
+        .d241 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 38%;
+          top: 54%;
+        }
+        .d242 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 39%;
+          top: 53%;
+        }
+        .d243 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 41%;
+          top: 52%;
+        }
+        .d244 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 42%;
+          top: 53%;
+        }
+        .d245 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 40%;
+          top: 54%;
+        }
+        .d246 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 40.5%;
+          top: 54%;
+        }
+        .d247 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 41.5%;
+          top: 56%;
+        }
+        .d248 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 40%;
+          top: 60%;
+        }
+        .d249 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 41%;
+          top: 60%;
+        }
+        .d250 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 40%;
+          top: 59%;
+        }
+        .d251 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 41%;
+          top: 61.5%;
+        }
+        .d252 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 42%;
+          top: 61.5%;
+        }
+        .d253 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 41%;
+          top: 61%;
+        }
+        .d254 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 41%;
+          top: 60%;
+        }
+        .d255 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 41.5%;
+          top: 59%;
+        }
+        .d256 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 44%;
+          top: 61%;
+        }
+        .d257 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 44%;
+          top: 60%;
+        }
+        .d258 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 44%;
+          top: 57%;
+        }
+        .d259 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(2px);
+          position: absolute;
+          left: 44.5%;
+          top: 57%;
+        }
+        .d260 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(6px);
+          position: absolute;
+          left: 41.5%;
+          top: 57%;
+        }
+        .d261 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(6px);
+          position: absolute;
+          left: 46%;
+          top: 60%;
+        }
+        .d262 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 44%;
+          top: 57%;
+        }
+        .d263 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 51.5%;
+          top: 47%;
+        }
+        .d264 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 45%;
+          top: 47%;
+        }
+        .d265 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 44%;
+          top: 39%;
+        }
+        .d266 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 49%;
+          top: 33%;
+        }
+        .d267 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(5px);
+          position: absolute;
+          left: 52%;
+          top: 32%;
+        }
+        .d268 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(5px);
+          position: absolute;
+          left: 52%;
+          top: 36%;
+        }
+        .d269 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 55%;
+          top: 39%;
+        }
+        .d270 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 58%;
+          top: 35%;
+        }
+        .d271 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 55%;
+          top: 34%;
+        }
+        .d272 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(6px);
+          position: absolute;
+          left: 56%;
+          top: 30%;
+        }
+        .d262 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(6px);
+          position: absolute;
+          left: 58%;
+          top: 42%;
+        }
+        .d263 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(6px);
+          position: absolute;
+          left: 57.5%;
+          top: 48%;
+        }
+        .d264 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(10px);
+          position: absolute;
+          left: 57%;
+          top: 52%;
+        }
+        .d265 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(10px);
+          position: absolute;
+          left: 59%;
+          top: 30%;
+        }
+        .d266 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(10px);
+          position: absolute;
+          left: 44%;
+          top: 47%;
+        }
+        .d267 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(10px);
+          position: absolute;
+          left: 48%;
+          top: 53%;
+        }
+        .d268 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 30px;
+          filter: blur(4px);
+          position: absolute;
+          left: 47%;
+          top: 34%;
+        }
+        .d269 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(6px);
+          position: absolute;
+          left: 54%;
+          top: 39%;
+        }
+        .d270 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 50%;
+          top: 35%;
+        }
+        .d271 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 52%;
+          top: 34%;
+        }
+        .d272 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(5px);
+          position: absolute;
+          left: 54%;
+          top: 32%;
+        }
+        .d273 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 56%;
+          top: 33%;
+        }
+        .d274 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 44%;
+          top: 40%;
+        }
+        .d275 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(10px);
+          position: absolute;
+          left: 52%;
+          top: 30%;
+        }
+        .d276 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(12px);
+          position: absolute;
+          left: 55%;
+          top: 30%;
+        }
+        .d277 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 44%;
+          top: 57%;
+        }
+        .d278 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 40%;
+          top: 52%;
+        }
+        .d279 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(8px);
+          position: absolute;
+          left: 38%;
+          top: 48%;
+        }
+        .d280 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(8px);
+          position: absolute;
+          left: 36%;
+          top: 40%;
+        }
+        .d281 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(8px);
+          position: absolute;
+          left: 39%;
+          top: 59%;
+        }
+        .d282 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(7px);
+          position: absolute;
+          left: 43%;
+          top: 63%;
+        }
+        .d283 {
+          width: 50px;
+          height: 50px;
+          background-color: white;
+          border-radius: 40px;
+          filter: blur(6px);
+          position: absolute;
+          left: 45.8%;
+          top: 41%;
+        }
+        .d284 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 44%;
+          top: 57%;
+        }
+        .d285 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(4px);
+          position: absolute;
+          left: 48%;
+          top: 59%;
+        }
+        .d286 {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(6px);
+          position: absolute;
+          left: 52%;
+          top: 52%;
+        }
+        .d286 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 38%;
+          top: 63%;
+        }
+        .d287 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 36%;
+          top: 54%;
+        }
+        .d288 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 38%;
+          top: 36%;
+        }
+        .d289 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 35%;
+          top: 33%;
+        }
+        .d290 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 65%;
+          top: 50%;
+        }
+        .d291 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 63%;
+          top: 52%;
+        }
+        .d292 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 38%;
+          top: 63%;
+        }
+        .d293 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 38%;
+          top: 63%;
+        }
+        .d294 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 58%;
+          top: 60%;
+        }
+        .d295 {
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 4px;
+          filter: blur(1px);
+          position: absolute;
+          left: 53%;
+          top: 64%;
+        }
+        .spiral {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 4%;
+          left: 0%;
+          animation: spin 300s infinite linear;
+        }
+        .space {
+          background: rgba(128, 0, 128, 0.1) center / 200px 200px round;
+          border: 1px dashed purple;
+          bottom: 0;
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        
+        @keyframes space {
+          40% {
+            opacity: 0.75;
+          }
+          50% {
+            opacity: 0.25;
+          }
+          60% {
+            opacity: 0.75;
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+
+      <div class="container">
+        <div class="space stars1"></div>
+        <div class="space stars2"></div>
+        <div class="space stars3"></div>
+        <div class="spiral">
+          <div class="d1"></div>
+          <div class="d2"></div>
+          <div class="d3"></div>
+          <div class="d4"></div>
+          <div class="d5"></div>
+          <div class="d6"></div>
+          <div class="d7"></div>
+          <div class="d8"></div>
+          <div class="d9"></div>
+          <div class="d10"></div>
+          <div class="d11"></div>
+          <div class="d12"></div>
+          <div class="d13"></div>
+          <div class="d14"></div>
+          <div class="d15"></div>
+          <div class="d16"></div>
+          <div class="d17"></div>
+          <div class="d18"></div>
+          <div class="d19"></div>
+          <div class="d20"></div>
+          <div class="d21"></div>
+          <div class="d22"></div>
+          <div class="d23"></div>
+          <div class="d24"></div>
+          <div class="d25"></div>
+          <div class="d26"></div>
+          <div class="d27"></div>
+          <div class="d28"></div>
+          <div class="d29"></div>
+          <div class="d30"></div>
+          <div class="d31"></div>
+          <div class="d32"></div>
+          <div class="d33"></div>
+          <div class="d34"></div>
+          <div class="d35"></div>
+          <div class="d36"></div>
+          <div class="d37"></div>
+          <div class="d38"></div>
+          <div class="d39"></div>
+          <div class="d40"></div>
+          <div class="d41"></div>
+          <div class="d42"></div>
+          <div class="d43"></div>
+          <div class="d44"></div>
+          <div class="d45"></div>
+          <div class="d46"></div>
+          <div class="d47"></div>
+          <div class="d48"></div>
+          <div class="d49"></div>
+          <div class="d50"></div>
+          <div class="d51"></div>
+          <div class="d52"></div>
+          <div class="d53"></div>
+          <div class="d54"></div>
+          <div class="d55"></div>
+          <div class="d56"></div>
+          <div class="d57"></div>
+          <div class="d58"></div>
+          <div class="d59"></div>
+          <div class="d60"></div>
+          <div class="d61"></div>
+          <div class="d62"></div>
+          <div class="d63"></div>
+          <div class="d64"></div>
+          <div class="d65"></div>
+          <div class="d66"></div>
+          <div class="d67"></div>
+          <div class="d68"></div>
+          <div class="d69"></div>
+          <div class="d70"></div>
+          <div class="d71"></div>
+          <div class="d71"></div>
+          <div class="d72"></div>
+          <div class="d73"></div>
+          <div class="d73"></div>
+          <div class="d74"></div>
+          <div class="d75"></div>
+          <div class="d76"></div>
+          <div class="d77"></div>
+          <div class="d78"></div>
+          <div class="d79"></div>
+          <div class="d80"></div>
+          <div class="d81"></div>
+          <div class="d82"></div>
+          <div class="d83"></div>
+          <div class="d84"></div>
+          <div class="d85"></div>
+          <div class="d86"></div>
+          <div class="d87"></div>
+          <div class="d88"></div>
+          <div class="d89"></div>
+          <div class="d90"></div>
+          <div class="d91"></div>
+          <div class="d92"></div>
+          <div class="d93"></div>
+          <div class="d94"></div>
+          <div class="d95"></div>
+          <div class="d96"></div>
+          <div class="d97"></div>
+          <div class="d98"></div>
+          <div class="d99"></div>
+          <div class="d100"></div>
+          <div class="d101"></div>
+          <div class="d102"></div>
+          <div class="d103"></div>
+          <div class="d104"></div>
+          <div class="d105"></div>
+          <div class="d106"></div>
+          <div class="d107"></div>
+          <div class="d108"></div>
+          <div class="d109"></div>
+          <div class="d110"></div>
+          <div class="d111"></div>
+          <div class="d112"></div>
+          <div class="d113"></div>
+          <div class="d114"></div>
+          <div class="d115"></div>
+          <div class="d116"></div>
+          <div class="d117"></div>
+          <div class="d118"></div>
+          <div class="d119"></div>
+          <div class="d120"></div>
+          <div class="d121"></div>
+          <div class="d122"></div>
+          <div class="d123"></div>
+          <div class="d124"></div>
+          <div class="d125"></div>
+          <div class="d126"></div>
+          <div class="d127"></div>
+          <div class="d128"></div>
+          <div class="d129"></div>
+          <div class="d130"></div>
+          <div class="d131"></div>
+          <div class="d132"></div>
+          <div class="d133"></div>
+          <div class="d134"></div>
+          <div class="d135"></div>
+          <div class="d136"></div>
+          <div class="d137"></div>
+          <div class="d138"></div>
+          <div class="d139"></div>
+          <div class="d140"></div>
+          <div class="d141"></div>
+          <div class="d142"></div>
+          <div class="d143"></div>
+          <div class="d144"></div>
+          <div class="d145"></div>
+          <div class="d146"></div>
+          <div class="d147"></div>
+          <div class="d148"></div>
+          <div class="d149"></div>
+          <div class="d150"></div>
+          <div class="d151"></div>
+          <div class="d152"></div>
+          <div class="d153"></div>
+          <div class="d154"></div>
+          <div class="d155"></div>
+          <div class="d156"></div>
+          <div class="d157"></div>
+          <div class="d158"></div>
+          <div class="d159"></div>
+          <div class="d160"></div>
+          <div class="d161"></div>
+          <div class="d162"></div>
+          <div class="d163"></div>
+          <div class="d164"></div>
+          <div class="d165"></div>
+          <div class="d166"></div>
+          <div class="d167"></div>
+          <div class="d168"></div>
+          <div class="d169"></div>
+          <div class="d170"></div>
+          <div class="d171"></div>
+          <div class="d172"></div>
+          <div class="d173"></div>
+          <div class="d174"></div>
+          <div class="d175"></div>
+          <div class="d176"></div>
+          <div class="d177"></div>
+          <div class="d178"></div>
+          <div class="d179"></div>
+          <div class="d180"></div>
+          <div class="d181"></div>
+          <div class="d182"></div>
+          <div class="d183"></div>
+          <div class="d184"></div>
+          <div class="d185"></div>
+          <div class="d186"></div>
+          <div class="d187"></div>
+          <div class="d188"></div>
+          <div class="d189"></div>
+          <div class="d190"></div>
+          <div class="d191"></div>
+          <div class="d192"></div>
+          <div class="d193"></div>
+          <div class="d194"></div>
+          <div class="d195"></div>
+          <div class="d196"></div>
+          <div class="d197"></div>
+          <div class="d198"></div>
+          <div class="d199"></div>
+          <div class="d200"></div>
+          <div class="d201"></div>
+          <div class="d202"></div>
+          <div class="d203"></div>
+          <div class="d204"></div>
+          <div class="d205"></div>
+          <div class="d206"></div>
+          <div class="d207"></div>
+          <div class="d208"></div>
+          <div class="d209"></div>
+          <div class="d210"></div>
+          <div class="d211"></div>
+          <div class="d212"></div>
+          <div class="d213"></div>
+          <div class="d214"></div>
+          <div class="d215"></div>
+          <div class="d216"></div>
+          <div class="d217"></div>
+          <div class="d218"></div>
+          <div class="d219"></div>
+          <div class="d220"></div>
+          <div class="d221"></div>
+          <div class="d222"></div>
+          <div class="d223"></div>
+          <div class="d224"></div>
+          <div class="d225"></div>
+          <div class="d226"></div>
+          <div class="d227"></div>
+          <div class="d228"></div>
+          <div class="d229"></div>
+          <div class="d230"></div>
+          <div class="d231"></div>
+          <div class="d232"></div>
+          <div class="d233"></div>
+          <div class="d234"></div>
+          <div class="d235"></div>
+          <div class="d236"></div>
+          <div class="d237"></div>
+          <div class="d238"></div>
+          <div class="d239"></div>
+          <div class="d240"></div>
+          <div class="d241"></div>
+          <div class="d242"></div>
+          <div class="d243"></div>
+          <div class="d244"></div>
+          <div class="d245"></div>
+          <div class="d246"></div>
+          <div class="d247"></div>
+          <div class="d248"></div>
+          <div class="d249"></div>
+          <div class="d250"></div>
+          <div class="d251"></div>
+          <div class="d252"></div>
+          <div class="d253"></div>
+          <div class="d254"></div>
+          <div class="d255"></div>
+          <div class="d256"></div>
+          <div class="d257"></div>
+          <div class="d258"></div>
+          <div class="d259"></div>
+          <div class="d260"></div>
+          <div class="d261"></div>
+          <div class="d262"></div>
+          <div class="d263"></div>
+          <div class="d264"></div>
+          <div class="d265"></div>
+          <div class="d266"></div>
+          <div class="d267"></div>
+          <div class="d268"></div>
+          <div class="d269"></div>
+          <div class="d270"></div>
+          <div class="d271"></div>
+          <div class="d272"></div>
+          <div class="d273"></div>
+          <div class="d274"></div>
+          <div class="d275"></div>
+          <div class="d276"></div>
+          <div class="d277"></div>
+          <div class="d278"></div>
+          <div class="d279"></div>
+          <div class="d280"></div>
+          <div class="d281"></div>
+          <div class="d282"></div>
+          <div class="d283"></div>
+          <div class="d284"></div>
+          <div class="d285"></div>
+          <div class="d286"></div>
+          <div class="d287"></div>
+          <div class="d288"></div>
+          <div class="d289"></div>
+          <div class="d290"></div>
+          <div class="d291"></div>
+          <div class="d292"></div>
+          <div class="d293"></div>
+          <div class="d294"></div>
+          <div class="d295"></div>
+        </div>
+        <div id="sun"></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
