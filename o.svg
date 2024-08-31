@@ -3048,27 +3048,27 @@
         }
         .stars1 {
           animation: space 120s ease-in-out infinite;
-          background-image: url('back.png');
+          background-image: url('https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/back.png');
         }
         .stars2 {
           animation: space 180s ease-in-out infinite;
-          background-image: url('back.png');
+          background-image: url('https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/back.png');
         }
         .stars3 {
           animation: space 240s ease-in-out infinite;
-          background-image: url('back.png');
+          background-image: url('https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/back.png');
         }
         .stars4 {
           animation: space 300s ease-in-out infinite;
-          background-image: url('back.png');
+          background-image: url('https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/back.png');
         }
         .stars5 {
           animation: space 360s ease-in-out infinite;
-          background-image: url('back.png');
+          background-image: url('https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/back.png');
         }
         .stars6 {
           animation: space 420s ease-in-out infinite;
-          background-image: url('back.png');
+          background-image: url('https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/back.png');
         }
         @keyframes space {
           40% {
