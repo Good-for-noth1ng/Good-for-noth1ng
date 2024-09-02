@@ -1,4 +1,4 @@
-<div style="width: 100%;background-color:black;">
+<div style="width: 100%;float:left;">
   <a>
     <img src="header.svg" style="width: 100%;height=50px;margin:0" alt="">  
   </a>
