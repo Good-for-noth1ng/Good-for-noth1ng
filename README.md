@@ -1,10 +1,4 @@
-<style>
-    div img {
-        display: block;
-        width: 100%;
-    }
-</style>
-<div style="width: 100%;float:left;">
-    <img src="header.svg" alt="">  
-    <img src="o.svg" alt="">
+<div style="width: 100%;">
+    <img src="header.svg" style="width: 100%;" alt="">  
+    <img src="o.svg" style="width: 100%;" alt="">
 </div>
