@@ -3044,7 +3044,6 @@
         }
         .space {
           background: rgba(128, 0, 128, 0.1) center / 100px 100px round;
-          border: 1px dashed purple;
           bottom: 0;
           left: 0;
           position: absolute;
@@ -3200,153 +3199,7 @@
               rgba(255, 255, 255, 0)
             );
         }
-        .stars4 {
-          animation: space 300s ease-in-out infinite;
-          background-image: 
-            radial-gradient(
-              1px 1px at 18px 16px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 40px 30px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 28px 60px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 60px 50px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 10px 70px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 43px 16px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 32px 30px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 10px 25px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 50px 10px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            );
-        }
-        .stars5 {
-          animation: space 360s ease-in-out infinite;
-          background-image: 
-            radial-gradient(
-              1px 1px at 18px 16px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 40px 30px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 28px 60px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 60px 50px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 10px 70px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 43px 16px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 32px 30px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 10px 25px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 50px 10px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            );
-        }
-        .stars6 {
-          animation: space 420s ease-in-out infinite;
-          background-image: 
-            radial-gradient(
-              1px 1px at 18px 16px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 40px 30px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 28px 60px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 60px 50px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 10px 70px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              1px 1px at 43px 16px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 32px 30px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 10px 25px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-              2px 2px at 50px 10px, 
-              white, 
-              rgba(255, 255, 255, 0)
-            );
-        }
+        
         @keyframes space {
           40% {
             opacity: 0.75;
@@ -3398,7 +3251,7 @@
         }
         @keyframes textclip {
           to {
-            background-position: 200% center;
+            background-position: -200% center;
           }
         }
       </style>
