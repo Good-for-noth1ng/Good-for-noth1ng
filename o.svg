@@ -44,14 +44,6 @@
             filter: blur(2px);
             animation: spin 300s infinite linear;
         }
-        <!-- .col {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          gap:1px;
-          position: relative;
-          z-index: 2;
-        } -->
         .d1 {
           width: 5px;
           height: 5px;
@@ -3040,7 +3032,7 @@
           height: 100%;
           top: 35px;
           left: 0%;
-          animation: spin 300s infinite linear;
+          animation: spin 100s infinite linear;
         }
         .space {
           background: rgba(128, 0, 128, 0.1) center / 100px 100px round;
