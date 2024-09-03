@@ -3049,7 +3049,9 @@
           left: 0;
           position: absolute;
           right: 0;
-          top: 0;
+          top: 50px;
+          width: 100%;
+          height: 300px;
         }
         .stars1 {
           animation: space 120s ease-in-out infinite;
