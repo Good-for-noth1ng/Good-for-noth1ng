@@ -1,2 +1,3 @@
-![img](https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/o.svg)
-![img](https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/header.svg)
+<div style="width: 100%;">
+  <img src="o.svg" style="width: 100%;" alt="">
+</div>
