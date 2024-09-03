@@ -1,3 +1,3 @@
-<div style="width: 100%;">
-  <img src="o.svg" style="width: 100%;" alt="">
+<div style="width: 100%;display:flex;justify-content:center;">
+  <img src="o.svg" alt="">
 </div>
