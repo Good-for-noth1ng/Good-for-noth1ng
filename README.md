@@ -1,4 +1,2 @@
-<div style="width: 100%;">
-    <img src="o.svg" style="width: 100%;display:block;margin:0;padding:0;" alt="">
-    <img src="header.svg" style="width: 100%;display:block;margin:0;padding:0;" alt="">
-</div>
+![img](https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/o.svg)
+![img](https://raw.githubusercontent.com/Good-for-noth1ng/Good-for-noth1ng/main/header.svg)
