@@ -1,12 +1,17 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+<svg fill="none" viewBox="0 0 600 350" width="600" height="350" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="350px">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="main">
       <style>
+        .main {
+          background: radial-gradient( navy 0, black 100%);
+          height: 100%;
+          width: 100%;
+        }
         .container {
           display: flex;
           width: 100%;
           height: 300px;
-          background: radial-gradient(navy 0, black 100%);
+<!--           background: radial-gradient(navy 0, black 100%); -->
           <!-- background-color: #0e0220; -->
           justify-content: center;
           align-items: center;
@@ -3033,7 +3038,7 @@
           position: absolute;
           width: 100%;
           height: 100%;
-          top: 4%;
+          top: 35px;
           left: 0%;
           animation: spin 300s infinite linear;
         }
@@ -3351,13 +3356,54 @@
             opacity: 0.75;
           }
           100% {
-            transform: rotate(360deg);
+            transform: rotate(-360deg);
+          }
+        }
+        .head {
+          width: 100%;
+          height: 50px;
+          color: white;
+          position: absolute;
+          z-index: 50;
+          <!-- background: linear-gradient(black, navy); -->
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "Brush Script MT", cursive;
+        }
+
+        .header-text {
+          text-transform: uppercase;
+          background-image: linear-gradient(
+            -225deg,
+            white 0%,
+            navy 25%,
+            purple 50%,
+            navy 75%,
+            white 100%
+          );
+          background-size: auto auto;
+          background-clip: border-box;
+          background-size: 200% auto;
+          color: #fff;
+          background-clip: text;
+          text-fill-color: transparent;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 15s linear infinite;
+          display: inline-block;
+          font-size: 20px;
+        }
+        @keyframes textclip {
+          to {
+            background-position: 200% center;
           }
         }
       </style>
-
+      <div class="head">
+        <h1 class="header-text">Immeasurable codebase</h1>
+      </div>
       <div class="container">
-        
         <div class="space stars3"></div>
         <div class="space stars2"></div>
         <div class="space stars1"></div>
@@ -3660,7 +3706,7 @@
           <div class="d294"></div>
           <div class="d295"></div>
         </div>
-        <div id="sun"></div>
+        
       </div>
     </div>
   </foreignObject>
