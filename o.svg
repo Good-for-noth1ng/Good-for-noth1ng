@@ -3254,7 +3254,7 @@
         <div class="space stars3"></div>
         <div class="space stars2"></div>
         <div class="space stars1"></div>
-        <div class="spiral">
+<!--         <div class="spiral">
           <div class="d1"></div>
           <div class="d2"></div>
           <div class="d3"></div>
@@ -3551,8 +3551,8 @@
           <div class="d292"></div>
           <div class="d293"></div>
           <div class="d294"></div>
-          <div class="d295"></div>
-        </div>
+          <div class="d295"></div> -->
+<!--         </div> -->
         
       </div>
     </div>
