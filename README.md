@@ -13,7 +13,7 @@
       <img src="divider.svg" style="width: 100%;" alt="">
     </div>
     <p align="center">
-      <div align="left" style="width:100px;">
+<!--       <div align="left" style="width:100px;">
         <img src="tools/html5-plain.svg" style="width: 50px;height=50px;"/>
         <br>
         <img src="tools/css3.svg" style="width: 50px;height=50px;"/>
@@ -25,11 +25,11 @@
         <img src="tools/nodejs-plain.svg" style="width: 50px;height=50px;"/>
         <br>
         <img src="tools/react-original.svg" style="width: 50px;height=50px;"/>
-      </div>
-      <div align="center">
-        <img align="center" src="dance.gif" style="width: 200px;height=300px;"/>
-      </div>
-      <div align="right" style="width:100px;">
+      </div> -->
+<!--       <div align="center"> -->
+        <img align="left" src="dance.gif" style="width: 200px;height=300px;"/>
+<!--       </div> -->
+<!--       <div align="right" style="width:100px;"> -->
         <img src="tools/python.svg" style="width:50px;height=50px;"/>
         <br>
         <img src="tools/flasksvg.svg" style="width: 50px;height=50px;"/>
@@ -43,7 +43,7 @@
         <img src="tools/ExpressJS.png" style="width: 50px;height=50px;"/>
         <br>
         <img src="tools/NextJS.png" style="width: 50px;height=50px;"/>
-      </div>
+<!--       </div> -->
     </p>
   </center>  
 </body>
