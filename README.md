@@ -20,7 +20,10 @@
         <img src="tools/nodejs-plain.svg" style="width: 50px;height=50px;"/>
         <img src="tools/react-original.svg" style="width: 50px;height=50px;"/>
       </p> -->
+    <p align="center">
       <img align="center" src="dance.gif" style="width: 100px;height=100px;"/>
+    </p>
+      
 <!--       <p align="right">
         <img src="tools/python.svg" style="width:50px;height=50px;"/>
         <img src="tools/flasksvg.svg" style="width: 50px;height=50px;"/>
