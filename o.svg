@@ -3382,7 +3382,7 @@
           -webkit-text-fill-color: transparent;
           animation: textclip 15s linear infinite;
           display: inline-block;
-          font-size: 20px;
+          font-size: 30px;
         }
         @keyframes textclip {
           to {
