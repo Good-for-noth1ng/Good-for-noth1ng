@@ -21,7 +21,7 @@
         <img src="tools/react-original.svg" style="width: 50px;height=50px;"/>
       </p> -->
     <p align="center">
-      <img align="center" src="dance.gif" style="width: 100px;height=100px;"/>
+      <img align="center" src="dance.gif" style="width: 200px;height=300px;"/>
     </p>
       
 <!--       <p align="right">
