@@ -14,12 +14,12 @@
     </div>
     <div>
       <div align="left">
-        <img src="tools/html5-plain.svg"/>
-        <img src="tools/html5-plain.svg"/>
+        <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
+        <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
       </div>
       <div align="right">
-        <img src="tools/html5-plain.svg"/>
-        <img src="tools/html5-plain.svg"/>
+        <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
+        <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
       </div>
     </div>
   </center>  
