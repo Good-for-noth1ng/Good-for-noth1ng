@@ -17,6 +17,7 @@
         <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
         <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
       </div>
+      <img align="center" src="dance.gif" style="width: 100px;height=100px;"/>
       <div align="right">
         <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
         <img src="tools/html5-plain.svg" style="width: 100px;height=100px;"/>
