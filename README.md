@@ -12,7 +12,6 @@
     <div style="width: 100%;" align="center">
       <img src="divider.svg" style="width: 100%;" alt="">
     </div>
-    <div>
       <p align="left">
         <img src="tools/html5-plain.svg" style="width: 50px;height=50px;"/>
         <img src="tools/css3.svg" style="width: 50px;height=50px;"/>
@@ -31,6 +30,5 @@
         <img src="tools/ExpressJS.png" style="width: 50px;height=50px;"/>
         <img src="tools/NextJS.png" style="width: 50px;height=50px;"/>
       </p>
-    </div>
   </center>  
 </body>
