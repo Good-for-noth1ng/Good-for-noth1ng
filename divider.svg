@@ -1,0 +1,32 @@
+<svg fill="none" viewBox="0 0 600 10" width="600" height="10" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+      .container {
+        width: 100%;
+        height: 10px;
+        background-size: 200% auto;
+        background-clip: border-box;
+        animation: grad 3s linear infinite;
+        display: inline-block;
+        background-image: linear-gradient(
+            -225deg,
+            white 0%,
+            navy 25%,
+            purple 50%,
+            navy 75%,
+            white 100%
+        );
+      }
+      @keyframes grad {
+          to {
+            background-position: -200% center;
+          }
+      }
+      </style>
+      <div class="container">
+        
+      </div>
+    </div>
+  </foreignObject>
+</svg>
