@@ -12,6 +12,7 @@
     <div style="width: 100%;" align="center">
       <img src="divider.svg" style="width: 100%;" alt="">
     </div>
+    <img src="skills.svg" alt="" style="width: 400px;height=50px;" align="left">
     <table align="center" style="border:none;">
       <tr style="border:none;">
         <td style="border:none;">
