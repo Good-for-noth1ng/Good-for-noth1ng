@@ -26,6 +26,8 @@
           <img src="tools/nodejs-plain.svg" style="width: 50px;height=50px;"/>
           <br>
           <img src="tools/react-original.svg" style="width: 50px;height=50px;"/>
+          <br>
+          <img src="tools/NextJS.png" style="width: 50px;height=50px;"/>
         </td>
         <td style="border:none;">
           <img align="center" src="dance.gif" style="width: 200px;height=300px;"/>
@@ -42,8 +44,6 @@
           <img src="tools/go-original.svg" style="width: 50px;height=50px;"/>
           <br>
           <img src="tools/ExpressJS.png" style="width: 50px;height=50px;"/>
-          <br>
-          <img src="tools/NextJS.png" style="width: 50px;height=50px;"/>
         </td>
       </tr>
     </table>
