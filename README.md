@@ -32,6 +32,8 @@
           <img src="tools/react-original.svg" style="width: 50px;height=50px;"/>
           <br>
           <img src="tools/NextJS.png" style="width: 50px;height=50px;"/>
+          <br>
+          <img src="tools/ExpressJS.png" style="width: 50px;height=50px;"/>
         </td>
         <td style="border:none;">
           <img align="center" src="dance.gif" style="width: 200px;height=300px;"/>
@@ -49,7 +51,9 @@
           <br>
           <img src="tools/bash.png" style="width: 50px;height=50px;"/>
           <br>
-          <img src="tools/ExpressJS.png" style="width: 50px;height=50px;"/>
+          <img src="tools/linux.svg" style="width: 50px;height=50px;"/>
+          <br>
+          <img src="tools/github.svg" style="width: 50px;height=50px;"/>
         </td>
       </tr>
     </table>
