@@ -16,48 +16,33 @@
       <tr>
         <td>
           <img src="tools/html5-plain.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/css3.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/javascript-original.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/typescript.png" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/nodejs-plain.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/react-original.svg" style="width: 50px;height=50px;"/>
         </td>
-      </tr>
-      <tr>
         <td>
-          <img align="left" src="dance.gif" style="width: 200px;height=300px;"/>
+          <img align="center" src="dance.gif" style="width: 200px;height=300px;"/>
         </td>
-      </tr>
-      <tr>
         <td>
           <img src="tools/python.svg" style="width:50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/flasksvg.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/django.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/git.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/go-original.svg" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/ExpressJS.png" style="width: 50px;height=50px;"/>
-        </td>
-        <td>
+          <br>
           <img src="tools/NextJS.png" style="width: 50px;height=50px;"/>
         </td>
       </tr>
