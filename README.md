@@ -43,6 +43,8 @@
           <br>
           <img src="tools/go-original.svg" style="width: 50px;height=50px;"/>
           <br>
+          <img src="tools/bash.png" style="width: 50px;height=50px;"/>
+          <br>
           <img src="tools/ExpressJS.png" style="width: 50px;height=50px;"/>
         </td>
       </tr>
