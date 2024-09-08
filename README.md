@@ -58,7 +58,7 @@
       </tr>
     </table>
     <p>
-      <img src="gojo.gif" style="width:100%;">
+      <img align="center" src="gojo.gif" style="width:100%;">
     </p>
   </center>  
 </body>
