@@ -57,6 +57,21 @@
         </td>
       </tr>
     </table>
+    <p align="left">
+      <img src="skills.svg" alt="" style="width: 400px;height=50px;">
+    </p>
+    <table align="center">
+      <tr>
+        <td>
+          <p>oldvk - mobile app for vk</p>
+        </td>  
+      </tr>
+      <tr>
+        <td>
+          <img src="oldvk/1.jpg" style="width:100px;"/>
+        </td>
+      </tr>
+    </table>
 <!--     <p>
       <img align="center" src="gojo.gif" style="width:100%;">
     </p> -->
