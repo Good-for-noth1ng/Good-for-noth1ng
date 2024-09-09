@@ -57,6 +57,9 @@
         </td>
       </tr>
     </table>
+    <div style="width: 100%;" align="center">
+      <img src="divider.svg" style="width: 100%;" alt="">
+    </div>
     <p align="left">
       <img src="projects.svg" alt="" style="width: 400px;height=50px;">
     </p>
