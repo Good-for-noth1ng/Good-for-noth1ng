@@ -58,7 +58,7 @@
       </tr>
     </table>
     <p align="left">
-      <img src="skills.svg" alt="" style="width: 400px;height=50px;">
+      <img src="projects.svg" alt="" style="width: 400px;height=50px;">
     </p>
     <table align="center">
       <tr>
@@ -68,7 +68,7 @@
       </tr>
       <tr>
         <td>
-          <img src="oldvk/1.jpg" style="width:100px;"/>
+          <img src="oldvk/1.jpg" style="width:200px;"/>
         </td>
       </tr>
     </table>
